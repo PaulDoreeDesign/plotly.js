@@ -295,6 +295,7 @@ function drawBg(rangeSlider, gd, axisOpts, opts) {
             opts.borderwidth - 1;
 
     var offsetShift = -opts._offsetShift;
+    var lw = Drawing.crispRound(gd, opts.borderwidth);
 
     bg.attr({
         width: opts._width + borderCorrect,
@@ -302,7 +303,7 @@ function drawBg(rangeSlider, gd, axisOpts, opts) {
         transform: 'translate(' + offsetShift + ',' + offsetShift + ')',
         fill: opts.bgcolor,
         stroke: opts.bordercolor,
-        'stroke-width': opts.borderwidth,
+        'stroke-width': lw
     });
 }
 
