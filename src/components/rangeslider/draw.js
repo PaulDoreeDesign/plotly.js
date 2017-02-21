@@ -473,6 +473,7 @@ function drawGrabbers(rangeSlider, gd, axisOpts, opts) {
         rx: constants.handleRadius,
         fill: constants.handleFill,
         stroke: constants.handleStroke,
+        'stroke-width': constants.handleStrokeWidth,
         'shape-rendering': 'crispEdges'
     };
 
