@@ -42,7 +42,7 @@ module.exports = {
     grabAreaCursor: 'col-resize',
     grabAreaWidth: 10,
 
-    handleWidth: 2,
+    handleWidth: 4,
     handleRadius: 1,
     handleFill: '#fff',
     handleStroke: '#666',
