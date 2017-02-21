@@ -99,7 +99,7 @@ describe('the range slider', function() {
 
                 expect(gd.layout.xaxis.range).toBeCloseToArray([4, 49], -0.5);
                 expect(maskMin.getAttribute('width')).toEqual(String(diff));
-                expect(handleMin.getAttribute('transform')).toBe('translate(' + (diff - 3) + ',0)');
+                expect(handleMin.getAttribute('transform')).toBe('translate(' + (diff - 2) + ',0)');
             }).then(done);
         });
 
